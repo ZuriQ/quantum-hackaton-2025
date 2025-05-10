@@ -7,7 +7,7 @@ All the resources and materials for this challenge are available in the reposito
 
 Feel free to clone the repository and submit issues if you encounter any. You can also ask all your physics, ion-trap, and quantum-related questions there or directly to the on-site ZuriQ representative.
 
-## <span style="color:red;">Updates and Additional Information</span>
+## Updates and Additional Information
 
 ### General Updates
 - **Pavel's Availability**: Pavel will be available at Fusion (where we had dinner on Friday) if you wish to find him for discussions or questions.
@@ -17,16 +17,11 @@ Feel free to clone the repository and submit issues if you encounter any. You ca
 ### MS Gate Definition
 Our definition for the Mølmer–Sørensen (MS) gate is as follows:
 
-$$
-MS(\phi) = \exp\left(-i \frac{\phi}{2} (X \otimes X)\right)
-= 
-\begin{bmatrix}
+$$ MS(\phi) = \exp\left(-i \frac{\phi}{2} (X \otimes X)\right) = \begin{bmatrix} 
 \cos\left(\frac{\phi}{2}\right) & 0 & 0 & -i\sin\left(\frac{\phi}{2}\right) \\
 0 & \cos\left(\frac{\phi}{2}\right) & -i\sin\left(\frac{\phi}{2}\right) & 0 \\
 0 & -i\sin\left(\frac{\phi}{2}\right) & \cos\left(\frac{\phi}{2}\right) & 0 \\
--i\sin\left(\frac{\phi}{2}\right) & 0 & 0 & \cos\left(\frac{\phi}{2}\right)
-\end{bmatrix}
-$$
+-i\sin\left(\frac{\phi}{2}\right) & 0 & 0 & \cos\left(\frac{\phi}{2}\right) \end{bmatrix} $$
 
 ### Gate Decomposition Help
 If you encounter difficulties decomposing the `RZ` gate into `RX` and `RY`, refer to the following resources:
