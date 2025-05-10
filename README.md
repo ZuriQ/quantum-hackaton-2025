@@ -9,6 +9,8 @@ Feel free to clone the repository and submit issues if you encounter any. You ca
 
 UPDATE: Pavel will hang around Fusion (where we had dinner on Friday) if you wish to find him. 
 
+UPDATE: We recommend forking the repository and submitting your work via a pull request.
+
 ---
 
 ## What is a Penning Trap?
