@@ -13,6 +13,7 @@ Feel free to clone the repository and submit issues if you encounter any. You ca
 - **Pavel's Availability**: Pavel will be available at Fusion (where we had dinner on Friday) if you wish to find him for discussions or questions.
 - **Repository Submission**: We recommend forking the repository and submitting your work via a pull request.
 - **Initial Ion Positions**: Ions are free to have any initial positions as long as they respect the rules outlined in the challenge.
+- **Fixed a typo in noise section**: We meant $p$ should be kept below 1 not $\bar{n}$
 
 ### MS Gate Definition
 Our definition for the Mølmer–Sørensen (MS) gate is as follows:
@@ -176,7 +177,7 @@ Here:
 - $\eta = 0.05$ is a fixed parameter.
 - $\bar{n}$ represents the average temperature of the two ions involved in the MS gate.
 
-While $\bar{n}$ is theoretically unbounded, solutions where $\bar{n}$ exceeds 1.0 are considered highly suboptimal and are unlikely to perform well in this challenge. The parameter $p$ is then used to apply a depolarizing channel to the two qubits involved in the MS gate operation, introducing noise proportional to the temperature.
+While $p$ is theoretically unbounded, solutions where $p$ exceeds 1.0 are considered highly suboptimal and are unlikely to perform well in this challenge. The parameter $p$ is then used to apply a depolarizing channel to the two qubits involved in the MS gate operation, introducing noise proportional to the temperature.
 
 The objective of this hackathon is to optimize the compilation process to ensure that the fidelity between the ideal (noise-free) quantum state and the noisy quantum state remains as close to 1.0 as possible.
 
