@@ -13,6 +13,7 @@ Feel free to clone the repository and submit issues if you encounter any. You ca
 - **Pavel's Availability**: Pavel will be available at Fusion (where we had dinner on Friday) if you wish to find him for discussions or questions.
 - **Repository Submission**: We recommend forking the repository and submitting your work via a pull request.
 - **Initial Ion Positions**: Ions are free to have any initial positions as long as they respect the rules outlined in the challenge.
+- **Interaction zone rules**: If two ions are in the interaction zone, you HAVE to do an MS gate. In the next step only one of the two has to leave. Conversely, the ions can enter the interaction zone 1 by 1. If a single ion is in the iteraction zone, it incurs the same heating as in the standard node. When the ions leave, they are free to go to any valid neigbouring node and dont have to go back to where they came from. 
 - **Fixed a typo in noise section**: We meant $p$ should be kept below 1 not $\bar{n}$
 
 ### MS Gate Definition
